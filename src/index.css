@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rajdhani&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+   color: #AEB6BF;
+   font-family: 'Fjalla One', sans-serif;
+}
+
+p { 
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 18px;
+    color: #ECF0F1;
+}
+
+.p_rating {
+    color: #F1C40F;
+}
+
+.main_div {
+    display: flex;
+    flex-direction: column;
+    background:#154360;
+}
+
+.boxes_series {
+    width: 80%;
+    min-width: 580px;
+    display: flex;
+    flex-direction: column;
+}
+
+.serie_box {
+    padding: .5rem .5rem .5rem .8rem;
+    display: flex;
+    -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.51);
+    -moz-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.51);
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.51);
+    border-radius: 6px 125px 6px 6px;
+    -moz-border-radius: 6px 125px 6px 6px;
+    -webkit-border-radius: 6px 125px 6px 6px;
+    border: 0px solid #000000;
+    margin-bottom: 2.5rem;
+}
+
+.cover_box {
+    min-width: 230px;
+    min-height: 310px;
+}
+
+.desc_rat {
+    width: 70%;
+    padding-left: .5rem;
+}
+
+.cover {
+    width: 215px;
+    height: 305px;
+    -webkit-box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.51);
+    -moz-box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.51);
+    box-shadow: 0px 0px 14px 2px rgba(0,0,0,0.51);
+
+}
