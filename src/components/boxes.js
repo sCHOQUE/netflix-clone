@@ -1,4 +1,5 @@
 import React from 'react';
+import a from '../assets/a.svg'
 
 
 const Boxes = (props) => {
@@ -19,6 +20,9 @@ const Boxes = (props) => {
                     <p>{summary}</p>
                     <div className = "rating">
                         <p className = "p_rating">{rating.average}</p>
+                        <div className = "star_icon_box">
+                            <img className = "star_icon" src = {a} alt = "star"/>
+                        </div>
                     </div>
                 </div>
             </div>

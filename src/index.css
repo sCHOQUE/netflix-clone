@@ -22,6 +22,7 @@ li {
 h1 {
    color: #AEB6BF;
    font-family: 'Fjalla One', sans-serif;
+   margin: 5px;
 }
 
 p { 
@@ -30,8 +31,27 @@ p {
     color: #ECF0F1;
 }
 
+.rating {
+    display: flex;
+    justify-content: left;
+}
+
 .p_rating {
     color: #F1C40F;
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px 0px 0px;
+}
+
+.star_icon_box {
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.star_icon {
+    width: 20px;
 }
 
 .main_div {
@@ -50,6 +70,7 @@ p {
 .serie_box {
     padding: .5rem .5rem .5rem .8rem;
     display: flex;
+    align-items: flex-start;
     -webkit-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.51);
     -moz-box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.51);
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.51);
@@ -57,7 +78,7 @@ p {
     -moz-border-radius: 6px 125px 6px 6px;
     -webkit-border-radius: 6px 125px 6px 6px;
     border: 0px solid #000000;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.2rem;
 }
 
 .cover_box {
